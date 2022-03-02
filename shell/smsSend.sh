@@ -13,5 +13,5 @@ do
     echo $textSMS  "was sent successfully" >> ./text/SMS.log
 
 done
-echo "" >> ./.env
+echo "" > ./.env
 echo "your messages were sent"
