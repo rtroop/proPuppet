@@ -1,0 +1,26 @@
+document.querySelectorAll('div.left.cw_link')[0].click()
+document.querySelector('div#sendatext').click()
+document.querySelector('div#sendatext').click()
+document.querySelector('textarea#smsmsg').value =
+document.querySelector('div.PMMbutton.action_go.action_btn').click()
+document.querySelector("#dashboard > div.slsdashboard_listings > div.slsdash_listing_container > table > tbody > tr:nth-child(i) > td:nth-child(2) > div")
+https://www.promaxmobile.com/customerentry.php?vt=-3
+document.querySelector('#ez_fn').value = "FIRST"
+document.querySelector('#ce_ln').value = "LAST"
+document.querySelector('#ez_ph').value = "PHONE"
+document.querySelector('#ez_em').value = "EMAIL"
+document.querySelector("#cws_info_cid").innerText
+document.querySelector("#check_duplicates")
+https://xhr.spec.whatwg.org/
+CARFAX=https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=DVW_1&vin=
+https://contacts.google.com/
+div.RANAid.jaWtS.null
+document.querySelector("#gb > div.gb_Fc.gb_Dc.gb_Jc.gb_Kc.gb_ja > div.gb_Lc > div > c-wiz > div > div:nth-child(10) > span > div:nth-child(2) > div > div > div:nth-child(2)").click()
+awk 'BEGIN { FS = "," } {if (NR!=1) {print $(NF)}}' JRS_PROSPECTS.csv | awk '{print $2}' > phoneNumbers.txt
+document.querySelector("input#search_phone").value = "$phone"
+document.querySelector('input#recallsearch').click()
+document.querySelector('div.cw_link').click()
+document.querySelector("div#sendatext").click()
+document.querySelector("textarea#smsmsg").value = "Hello world"
+document.querySelector("div.PMMbutton.action_go.action_btn").click()
+bash ./sh/customerInput.sh
