@@ -18,6 +18,8 @@
     "express": "^4.17.3",
     "fs-extra": "^10.0.1",
     "jshint": "^2.13.4",
-    "puppeteer": "^10.4.0"
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
   }
 }

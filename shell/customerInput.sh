@@ -10,5 +10,5 @@ echo FIRST=$fName >> ./.env
 echo LAST=$lName >> ./.env
 echo PHONE=$phNum >> ./.env
 echo EMAIL=$eMail >> ./.env
-echo $fName $lName,$fName ,,$lName,,,,,,,,,,,,,,,,,,,,$pLevel,,$vNotes,,,JRS_PROSPECTS ::: ,,$eMail,Mobile,+1 $phNum >> ./JRS_PROSPECTS.csv
+echo $fName $lName,$fName ,,$lName,,,,,,,,,,,,,,,,,,,,$pLevel,,$vNotes,,,JRS_PROSPECTS ::: ,,$eMail,Mobile,+1 $phNum | tee ./JRS_PROSPECT.csv >> ./JRS_PROSPECTS.csv
 npm run start 
