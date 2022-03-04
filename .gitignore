@@ -1,5 +1,4 @@
 node_modules/
 text/credentials.txt
-.env
 package-lock.json
 JRS_PROSPECTS.csv
