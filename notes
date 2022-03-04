@@ -12,7 +12,6 @@ document.querySelector('#ez_em').value = "EMAIL"
 document.querySelector("#cws_info_cid").innerText
 document.querySelector("#check_duplicates")
 https://xhr.spec.whatwg.org/
-CARFAX=https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=DVW_1&vin=
 https://contacts.google.com/
 div.RANAid.jaWtS.null
 document.querySelector("#gb > div.gb_Fc.gb_Dc.gb_Jc.gb_Kc.gb_ja > div.gb_Lc > div > c-wiz > div > div:nth-child(10) > span > div:nth-child(2) > div > div > div:nth-child(2)").click()
@@ -30,5 +29,10 @@ document.querySelector("#shareEmailSendButton")
 document.querySelector("#emailFrom").value = "rtroop0920@outlook.com"
 document.querySelector("#emailTo").value = "rtroop0920@gmail.com"
 document.querySelector("#recaptcha-anchor").click()
-WEBSITE=https://www.jrsautosaleswa.com/
 document.querySelector('input.inventorysearch').value
+CARFAX=https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=DVW_1&vin=
+WEBSITE=https://www.jrsautosaleswa.com/
+DASH=https://www.promaxmobile.com/slsdashboard.php
+CUSTOMER_ENTRY=https://www.promaxmobile.com/customerentry.php?vt=-3
+RECALL=https://www.promaxmobile.com/recall.php 
+LOGIN_PAGE=https://www.promaxmobile.com/login.php

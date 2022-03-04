@@ -6,6 +6,7 @@ read -p 'Email address: ' eMail
 read -p 'Priorety level: ' pLevel
 read -p 'Notes: ' vNotes
 cat ./text/credentials.txt > ./.env
+grep 'LOGIN_PAGE\|DASH\|CUSTOMER_ENTRY' ./notes >> ./.env
 echo FIRST=$fName >> ./.env
 echo LAST=$lName >> ./.env
 echo PHONE=$phNum >> ./.env
