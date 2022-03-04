@@ -24,3 +24,11 @@ document.querySelector("div#sendatext").click()
 document.querySelector("textarea#smsmsg").value = "Hello world"
 document.querySelector("div.PMMbutton.action_go.action_btn").click()
 bash ./sh/customerInput.sh
+document.querySelector("span.vin").innerText
+document.querySelector("#shareBtn").click()
+document.querySelector("#shareEmailSendButton")
+document.querySelector("#emailFrom").value = "rtroop0920@outlook.com"
+document.querySelector("#emailTo").value = "rtroop0920@gmail.com"
+document.querySelector("#recaptcha-anchor").click()
+WEBSITE=https://www.jrsautosaleswa.com/
+document.querySelector('input.inventorysearch').value
