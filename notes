@@ -1,3 +1,8 @@
+from curses import keyname
+from lib2to3.pgen2 import token
+import secrets
+
+
 document.querySelectorAll('div.left.cw_link')[0].click()
 document.querySelector('div#sendatext').click()
 document.querySelector('div#sendatext').click()
@@ -36,3 +41,20 @@ DASH=https://www.promaxmobile.com/slsdashboard.php
 CUSTOMER_ENTRY=https://www.promaxmobile.com/customerentry.php?vt=-3
 RECALL=https://www.promaxmobile.com/recall.php 
 LOGIN_PAGE=https://www.promaxmobile.com/login.php
+
+
+CLIENT_ID=897267378006-ov2rlkvujeb82nd0k3es5p167vfusij1.apps.googleusercontent.com
+CLIENT_SECRET=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
+BEARER=ya29.A0ARrdaM85gIxLTuw7FjxxGMsoyrP5mZXUZewyY92SKZQInn9MAd2K8Gk_V62-sZgiDFNoxR6raBxmpTaoFaOcTF3qILU_TfjGySxJ32LJt3S9wgsTMNyiMuIaGk45HsG5L86PPt_F1K9dGQOkJF4eAUqqpRPi
+REFRESH_TOKEN=1//0416drIf7JpLpCgYIARAAGAQSNwF-L9Ir7IIj1-fYrTBKfPOxa0LMO6mdHLKcFiFlP3xx-YdVpn8pfueIY08XGi4gL_YUsh1On9M
+API_KEY=AIzaSyDmKpuCG2h2zV47kwkcZlq98_ua9vAMyJg
+
+curl --request POST \
+  'https://people.googleapis.com/v1/people:createContact?key=AIzaSyDmKpuCG2h2zV47kwkcZlq98_ua9vAMyJg' \
+  --header 'Authorization: Bearer ya29.A0ARrdaM83DG4wchRDXzl_s6vh6F90Js3xgdD-QYaKsxrIRkOvS3i04oudWNzCDVqU0mSjdY_5wG8FW1jQa2CUK4LLCyojvFEDBhKPaYS3dXZXLHiP4DEaBxBd6-ojZ_QpnxHQCFiuNAF9EDDdNRjGjRIzNmCV' \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+JSON_FMT= --data '{"memberships":[{"contactGroupMembership":{"contactGroupResourceName":"contactGroups/25c7960c0f4c49e3"}}],"names":[{"givenName":"%s","familyName":"%s"}],"phoneNumbers":[{"type":"mobile","value":"%s"}],"emailAddresses":[{"value":"%s"}],"userDefined":[{"key":"Vehicle","value":"%s"},{"key":"LeadSource","value":"%s"},{"key":"Beacon","value":"%s"},{"key":"Status","value":"%s"}]}' \
+    
+  --compressed
+  
