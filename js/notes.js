@@ -4,8 +4,9 @@ require('dotenv').config();
 const pe = process.env;
 
 async function note () {
-    const browser = await puppeteer.launch({headless:false});
+    const browser = await puppeteer.launch({headless:true});
     const page = await browser.newPage();
+   
     try{
         await page.goto(pe.LOGIN_PAGE, { waitUntil: "networkidle0" });
         await page.type('input#PMXD_Input',pe.DEALER);
@@ -51,15 +52,14 @@ async function note () {
     }
     try{
        await page.waitForSelector('textarea#cnotes',{visable: true}) 
+       await page.waitForTimeout(5000)
             //  page.type('textarea#cnotes', pe.NOTE)
              page.click('textarea#cnotes');
-       await page.keyboard.type(pe.NOTE, { delay: 100 });
-             page.waitForTimeout(5000)
-            }catch(err){
-                console.log('You might be the dumbest SOB')
-            }
-     try{
-            page.click('div.PMMbutton.action_go.action_btn')
+       await page.keyboard.type(pe.NOTE, {delay: 100});
+
+        // console.log('You might be the dumbest SOB')
+  
+        await page.click('div.PMMbutton.action_go.action_btn')
             }catch(err){
                 console.log('dip shit')
             }
@@ -68,5 +68,5 @@ async function note () {
 
     
 
-    // await browser.close();
+    await browser.close();
 }note()
