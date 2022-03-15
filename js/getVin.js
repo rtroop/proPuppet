@@ -1,5 +1,5 @@
-const puppeteerExtra = require('puppeteer-extra');
-const stealthPlugin  = require ('puppeteer-extra-plugin-stealth');
+// const puppeteerExtra = require('puppeteer-extra');
+// const stealthPlugin  = require ('puppeteer-extra-plugin-stealth');
 const puppeteer  = require ('puppeteer');
 const dotenv  = require('dotenv');
 const fs = require('fs-extra');
@@ -7,15 +7,15 @@ const pe = process.env;
 dotenv.config();
 
 async function getVin() {
-puppeteerExtra.use(stealthPlugin());
-const browser = await puppeteerExtra.launch({ headless: true});
+// puppeteerExtra.use(stealthPlugin());
+const browser = await puppeteer.launch({ headless: false});
 const page = await browser.newPage();
 try{
     await page.goto(pe.WEBSITE);
     await page.waitForSelector('input.inventorysearch',{visible:true});
-    await page.type('input.inventorysearch', pe.STKNUM)
+    await page.type('input.inventorysearch', pe.STOCK)
     await Promise.all([
-        page.waitForNavigation(),
+        page.waitForNavigation({waitUntil: "domcontentloaded"}),
         page.keyboard.press('Enter'),
     ]);
 }catch(err){

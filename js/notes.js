@@ -4,7 +4,7 @@ require('dotenv').config();
 const pe = process.env;
 
 async function note () {
-    const browser = await puppeteer.launch({headless:true});
+    const browser = await puppeteer.launch({headless:false});
     const page = await browser.newPage();
    
     try{

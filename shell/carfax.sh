@@ -1,17 +1,16 @@
 #!/bin/bash
-read -p 'Stock Number: ' Stk 
+read -p 'Stock Number: ' stkNum 
 echo "Stand by for link..."
-if grep -q $Stk ~/proPuppet/text/carfaxLinks.txt
+if grep -q $stkNum ~/proPuppet/text/carfaxLinks.txt
 then
 clear
-grep $Stk ~/proPuppet/text/carfaxLinks.txt | awk '{print $2}'
+grep $stkNum ~/proPuppet/text/carfaxLinks.txt | awk '{print $2}'
 else
-grep "WEB" ~/proPuppet/notes > .env
-echo "STKNUM=" $Stk >> .env
-grep "CARFAX" ~/proPuppet/notes >> .env
+
+ sed -i 's/STOCK=.*$/STOCK='$stkNum'/' ../.env
 node ~/proPuppet/js/getVin.js
 echo -e ' \n' >> ~/proPuppet/text/carfaxLinks.txt
-echo "$Stk"|tr '\n' ' ' >> ~/proPuppet/text/carfaxLinks.txt
-clear
+echo "$stkNum"|tr '\n' ' ' >> ~/proPuppet/text/carfaxLinks.txt
+# clear
 cat ~/proPuppet/text/carfaxLInk.txt | tee -a ~/proPuppet/text/carfaxLinks.txt
 fi

@@ -1,7 +1,7 @@
 #!/bin/bash
-
-#read -p 'Phone Number: ' phone
-#read -p 'Note: ' note
+#Bash script for updating contacts notes in Promax
+#Renew protection by running every 72 hours 
+# to do; Add more cases to enhance the legitamacy
 File="/c/Users/rtroo/proPuppet/text/phoneNumbers.txt"
 Lines=$(cat $File)
 ENV='/c/Users/rtroo/proPuppet/.env'
