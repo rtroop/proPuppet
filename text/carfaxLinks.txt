@@ -6,7 +6,12 @@ P11808 https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=DVW_1&vin=WBAX
 
 P11613 https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=DVW_1&vin=JH4CU2F48EC001683 
  
- 
+    
+
+P11819 https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=DVW_1&vin=4S3GKAK68H1626210 
+
+P11818 https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=DVW_1&vin=1NXBR32E76Z717954 
+
  
 
-P11819 
+P11827 https://www.carfax.com/VehicleHistory/p/Report.cfx?partner=DVW_1&vin=3GCPKTE30BG340163

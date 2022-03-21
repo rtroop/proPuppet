@@ -1,1 +1,0 @@
-SMS=This text was sent automagically using the puppet

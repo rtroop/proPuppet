@@ -5,8 +5,7 @@ read -p "choose message: " textSMS
 Lines=$(cat $File)
 for Line in $Lines
 do 
-    cat ./text/credentials.txt > ./.env
-    echo "PHONE=$Line" >> ./.env
+    sed -i 's/PHONE=.*$/PHONE='$Lines'/' ./.env
     grep $textSMS ./text/smsMessages.txt >> ./.env
     node ./js/recallCusty.js 
     date >> ./text/SMS.log

@@ -7,7 +7,7 @@ clear
 grep $stkNum ~/proPuppet/text/carfaxLinks.txt | awk '{print $2}'
 else
 
- sed -i 's/STOCK=.*$/STOCK='$stkNum'/' ../.env
+ sed -i 's/STOCK=.*$/STOCK='$stkNum'/' ./.env
 node ~/proPuppet/js/getVin.js
 echo -e ' \n' >> ~/proPuppet/text/carfaxLinks.txt
 echo "$stkNum"|tr '\n' ' ' >> ~/proPuppet/text/carfaxLinks.txt

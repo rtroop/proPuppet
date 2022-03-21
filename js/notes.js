@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
-const fs = require('fs/promises')
+const fs = require('fs/promises');
+const { async } = require('jshint/src/prod-params');
 require('dotenv').config();
 const pe = process.env;
 
@@ -44,6 +45,22 @@ async function note () {
     }catch(err){
         console.log("nice try FFR")
     }
+  
+try {
+  CID = await page.$eval("#aid", (el) => el.value);
+  date = new Date();
+  phn = pe.PHONE;
+  follow = pe.FOLLOW;
+  entry = CID + " " + date + " " + phn + " " + follow;
+  fs.appendFile("text/SMS.log", entry + "\n");
+} catch (err) {
+  console.log(err);
+}
+
+     
+  
+      
+  
     try{
        await page.waitForSelector('#addanote',{visable: true}) 
              page.click('#addanote')
@@ -55,7 +72,7 @@ async function note () {
        await page.waitForTimeout(5000)
             //  page.type('textarea#cnotes', pe.NOTE)
              page.click('textarea#cnotes');
-       await page.keyboard.type(pe.NOTE, {delay: 100});
+       await page.keyboard.type(pe.FOLLOW, {delay: 100});
 
         // console.log('You might be the dumbest SOB')
   
