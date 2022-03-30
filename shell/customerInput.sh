@@ -13,14 +13,11 @@ read -p 'Lead Source: ' upSrc
 read -p 'Profile: ' bureau
 read -p 'Status: ' sitRep
 read -p 'Notes: ' note
-cat ./text/credentials.txt > ./.env
-grep 'LOGIN_PAGE\|DASH\|CUSTOMER_ENTRY' ./notes >> ./.env
-echo FIRST=$fName >> ./.env
-echo LAST=$lName >> ./.env
-echo PHONE=$phNum >> ./.env
-echo EMAIL=$eMail >> ./.env
-echo NOTE=$note >> ./.env
-echo $phNum >> ./text/phoneNumbers.txt
+sed -i 's/PHONE=.*$/PHONE='$phNum'/' ./.env
+sed -i 's/FIRST=.*$/FIRST='$fName'/' ./.env
+sed -i 's/LAST=.*$/LAST='$lName'/' ./.env
+sed -i 's/EMAIL=.*$/EMAIL='$eMail'/' ./.env
+sed -i 's/NOTES=.*$/NOTES='$note'/' ./.env
 JSON_FMT='{"memberships":[{"contactGroupMembership":{"contactGroupResourceName":"contactGroups/25c7960c0f4c49e3"}}],"names":[{"givenName":"%s","familyName":"%s"}],"phoneNumbers":[{"type":"mobile","value":"%s"}],"emailAddresses":[{"value":"%s"}],"userDefined":[{"key":"Vehicle","value":"%s"},{"key":"LeadSource","value":"%s"},{"key":"Beacon","value":"%s"},{"key":"Status","value":"%s"}]}' \
 JSON_STING=$(printf "$JSON_FMT" "$fName" "$lName" "$phNum" "$eMail" "$VOI" "$upSrc" "$bureau" "$sitRep")
 #get a new token
