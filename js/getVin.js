@@ -16,14 +16,15 @@ try{
     await page.type('input.inventorysearch', pe.STOCK)
     await Promise.all([
         page.waitForNavigation({waitUntil: "domcontentloaded"}),
-        page.keyboard.press('Enter'),
+        page.click("button.btn-default"),
     ]);
 }catch(err){
     console.log('vehicle not loaded')
 }
 try{
-    const file = "./text/carfaxLink.txt"
+    const file = "./text/carfaxLink.txt";
     const vin = await page.$eval('span.vin', (el) => el.innerText);
+    await page.waitForSelector('span.vin', {visable:true});
     fs.writeFileSync(file, pe.CARFAX+vin)
 }catch(err){
     console.log(err)
