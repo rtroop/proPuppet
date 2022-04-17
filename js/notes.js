@@ -5,7 +5,7 @@ require('dotenv').config();
 const pe = process.env;
 
 async function note () {
-    const browser = await puppeteer.launch({headless:false});
+    const browser = await puppeteer.launch({headless: true });
     const page = await browser.newPage();
    
     try{
@@ -28,7 +28,7 @@ async function note () {
     }
 
     try{
-        await page.goto(pe.RECALL, {waitUntil: "networkidle0"});
+        await page.goto(pe.RECALL);
 
     }catch(err){
         console.log("dipshit")
@@ -50,8 +50,8 @@ try {
   CID = await page.$eval("#aid", (el) => el.value);
   date = new Date();
   phn = pe.PHONE;
-  follow = pe.FOLLOW;
-  entry = CID + " " + date + " " + phn + " " + follow;
+  myNote = pe.NOTE;
+  entry = CID + " " + date + " " + phn + " " + myNote;
   fs.appendFile("text/SMS.log", entry + "\n");
 } catch (err) {
   console.log(err);
@@ -72,7 +72,7 @@ try {
        await page.waitForTimeout(5000)
             //  page.type('textarea#cnotes', pe.NOTE)
              page.click('textarea#cnotes');
-       await page.keyboard.type(pe.FOLLOW, {delay: 100});
+       await page.keyboard.type(pe.NOTE, {delay: 100});
 
         // console.log('You might be the dumbest SOB')
   

@@ -8,7 +8,7 @@ const pe = process.env;
 // const people = google.people("v1");
 
 async function login() {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
   try {
     await page.goto(pe.LOGIN_PAGE, { waitUntil: "networkidle0" });
@@ -60,13 +60,17 @@ async function login() {
     await page2.waitForSelector("textarea#cnotes", { visable: true });
     await page2.click("textarea#cnotes");
     await page2.keyboard.type(pe.NOTE, { delay: 100 });
-    await page2.click("div.PMMbutton.action_go.action_btn");
+    await Promise.all([
+      page2.waitForNavigation(),
+      page2.click("div.PMMbutton.action_go.action_btn"),
+    ]) 
   } catch (err) {
     console.log("dip shit");
   }
   try {
-    const CID = await page2.$eval("#aid", (el) => el.value);
+    const CID = await page2.$eval("#cws_info_cid", (el) => el.innerHTML);
     const CWS = pe.CWS + CID;
+    fs.appendFile("text/CID.txt", CID + "\n") 
     await page2.goto(`${CWS}`);
     await page2.waitForSelector("#cw_desv_edit", { visable: true });
     await page2.click("#cw_desv_edit");

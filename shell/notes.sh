@@ -27,7 +27,8 @@ do
     sed -i 's/;'$note'//' ./.env
     sed -i 's/PHONE=.*$/PHONE='$line'/' ./.env
     node ~/proPuppet/js/notes.js
-    sed -i 's/^FOLLOW/;'$note'FOLLOW/' ./.env
+    sed -i 's/^NOTE/;'$note'NOTE/' ./.env
 done
 
-echo "your caught up"
+
+echo "notes ran"

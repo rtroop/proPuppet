@@ -1,0 +1,131 @@
+{
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.people.v1.PeopleService.CreateContact",
+          "service": "people.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+{
+  "error": {
+    "code": 401,
+    "message": "API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal. See https://cloud.google.com/docs/authentication",
+    "status": "UNAUTHENTICATED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "CREDENTIALS_MISSING",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "google.people.v1.PeopleService.CreateContact",
+          "service": "people.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+dip shit
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+Idiot
+dip shit
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+nice try FFR
+Idiot
+dip shit
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+nice try FFR
+Idiot
+dip shit
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+Your a loser
+Almost fatty
+nice try FFR
+Idiot
+dip shit
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+wrong moron
+
+> rtws1@1.0.0 start C:\Users\rtroo\proPuppet
+> node ./js/login.js
+
+dip shit

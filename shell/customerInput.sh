@@ -8,18 +8,19 @@ read -p 'First name: ' fName
 read -p 'Last name: ' lName
 read -p 'Phone number: ' phNum
 read -p 'Email address: ' eMail
-read -p 'Vehicle: ' VOI
+read -p 'Vehicle: ' vehicle
 read -p 'Lead Source: ' upSrc
 read -p 'Profile: ' bureau
 read -p 'Status: ' sitRep
-read -p 'Notes: ' note
+read -p 'Note: ' note
+echo $phNum >> 'text\phoneNumbers.txt'
 sed -i 's/PHONE=.*$/PHONE='$phNum'/' ./.env
 sed -i 's/FIRST=.*$/FIRST='$fName'/' ./.env
 sed -i 's/LAST=.*$/LAST='$lName'/' ./.env
 sed -i 's/EMAIL=.*$/EMAIL='$eMail'/' ./.env
-sed -i 's/NOTES=.*$/NOTES='$note'/' ./.env
+sed -i 's/;5NOTE=.*$/NOTE='$note'/' ./.env
 JSON_FMT='{"memberships":[{"contactGroupMembership":{"contactGroupResourceName":"contactGroups/25c7960c0f4c49e3"}}],"names":[{"givenName":"%s","familyName":"%s"}],"phoneNumbers":[{"type":"mobile","value":"%s"}],"emailAddresses":[{"value":"%s"}],"userDefined":[{"key":"Vehicle","value":"%s"},{"key":"LeadSource","value":"%s"},{"key":"Beacon","value":"%s"},{"key":"Status","value":"%s"}]}' \
-JSON_STING=$(printf "$JSON_FMT" "$fName" "$lName" "$phNum" "$eMail" "$VOI" "$upSrc" "$bureau" "$sitRep")
+JSON_STING=$(printf "$JSON_FMT" "$fName" "$lName" "$phNum" "$eMail" "$vehicle" "$upSrc" "$bureau" "$sitRep")
 #get a new token
 function newToken() {
 curl -s \
@@ -36,6 +37,8 @@ curl -s \
   --header 'Accept: application/json' \
   --header 'Content-Type: application/json' \
   --data   "${JSON_STING}" \
-  --compressed
+  --compressed >> "text/temp.json"
 
-npm run start 
+npm run start >> "text/temp.txt"
+sed -i 's/^NOTE/;5NOTE/' ./.env
+echo $?
