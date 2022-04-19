@@ -1955,4 +1955,142 @@
       "value": "worked"
     }
   ]
+}{
+  "resourceName": "people/c8414416263262652875",
+  "etag": "%EigBAgMEBQYHCAkKCwwNDg8QERITFBUWFxkfISIjJCUmJy40NTc9Pj9AGgQBAgUHIgxOaksxYzJXYzExaz0=",
+  "metadata": {
+    "sources": [
+      {
+        "type": "CONTACT",
+        "id": "74c603028c0a49cb",
+        "etag": "#NjK1c2Wc11k=",
+        "updateTime": "2022-04-18T22:59:07.685067Z"
+      }
+    ],
+    "objectType": "PERSON"
+  },
+  "names": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "displayName": "Rufus StntBumb",
+      "familyName": "StntBumb",
+      "givenName": "Rufus",
+      "displayNameLastFirst": "StntBumb, Rufus",
+      "unstructuredName": "Rufus StntBumb"
+    }
+  ],
+  "photos": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "url": "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/V8BNOaftJmYwfTbkebpLOdZf3F_Q-ZwqACLcDEAEiGQoBUhD___________8BGJuvhfj______wE/s100/photo.jpg",
+      "default": true
+    }
+  ],
+  "emailAddresses": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "value": "rbumb@gmail.com"
+    }
+  ],
+  "phoneNumbers": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "value": "(555)555-3433",
+      "type": "mobile",
+      "formattedType": "Mobile"
+    }
+  ],
+  "memberships": [
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "contactGroupMembership": {
+        "contactGroupId": "25c7960c0f4c49e3",
+        "contactGroupResourceName": "contactGroups/25c7960c0f4c49e3"
+      }
+    },
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "contactGroupMembership": {
+        "contactGroupId": "myContacts",
+        "contactGroupResourceName": "contactGroups/myContacts"
+      }
+    }
+  ],
+  "userDefined": [
+    {
+      "metadata": {
+        "primary": true,
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "key": "Vehicle",
+      "value": "2002 Ford Taurus"
+    },
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "key": "LeadSource",
+      "value": "Credit yes"
+    },
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "key": "Beacon",
+      "value": "545"
+    },
+    {
+      "metadata": {
+        "source": {
+          "type": "CONTACT",
+          "id": "74c603028c0a49cb"
+        }
+      },
+      "key": "Status",
+      "value": "pending review"
+    }
+  ]
 }

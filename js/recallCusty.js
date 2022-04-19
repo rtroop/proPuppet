@@ -153,39 +153,39 @@ async function login() {
   //   console.log(err)
   // }
 
-  //  filterBy = {
-  //   key: ["appfname", "applname", "appcp", "appeml", "appcustid"],
-  // };
-  //  filtered = inputVals.filter((o) =>
-  //   Object.keys(filterBy).every((k) => filterBy[k].some((f) => o[k] === f))
-  // );
+   filterBy = {
+    key: ["appfname", "applname", "appcp", "appeml", "appcustid"],
+  };
+   filtered = inputVals.filter((o) =>
+    Object.keys(filterBy).every((k) => filterBy[k].some((f) => o[k] === f))
+  );
 
-  //   fs.appendFile(
-  //     "text/person.json",
-  //     JSON.stringify(filtered, null, 3),
-  //     (err) => {
-  //       if (err) {
-  //         console.log(err);
-  //       } else {
-  //         console.log("Saved Successfully!");
-  //       }
-  //     }
-  //   );
+    fs.appendFile(
+      "text/person.json",
+      JSON.stringify(filtered, null, 3),
+      (err) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("Saved Successfully!");
+        }
+      }
+    );
 
-  //      try{
-  //        await page.waitForSelector('div#sendatext',{visable: true})
-  //              page.click('div#sendatext')
-  //        await page.waitForSelector('textarea#smsmsg',{visable: true})
-  //        await page.type('textarea#smsmsg', pe.SMS);
-  //              page.waitForTimeout(1000);
-  //     //    await page.screenshot({path: 'api.png'});
-  //        await Promise.all([
-  //              page.waitForNavigation(),
-  //              page.click('div.PMMbutton.action_go.action_btn')
-  //   ]);
-  //     }catch(err){
-  //         console.log("so close fatty")
-  //     }
+       try{
+         await page.waitForSelector('div#sendatext',{visable: true})
+               page.click('div#sendatext')
+         await page.waitForSelector('textarea#smsmsg',{visable: true})
+         await page.type('textarea#smsmsg', pe.SMS);
+               page.waitForTimeout(1000);
+      //    await page.screenshot({path: 'api.png'});
+         await Promise.all([
+               page.waitForNavigation(),
+               page.click('div.PMMbutton.action_go.action_btn')
+    ]);
+      }catch(err){
+          console.log("so close fatty")
+      }
 
   await browser.close();
 }
