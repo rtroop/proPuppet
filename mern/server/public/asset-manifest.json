@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da2e0916.css",
+    "main.js": "/static/js/main.3a644c59.js",
+    "static/media/nwautos.svg": "/static/media/nwautos.6dadc9b5454492b3962ececc2690d9a7.svg",
+    "index.html": "/index.html",
+    "main.da2e0916.css.map": "/static/css/main.da2e0916.css.map",
+    "main.3a644c59.js.map": "/static/js/main.3a644c59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da2e0916.css",
+    "static/js/main.3a644c59.js"
+  ]
+}

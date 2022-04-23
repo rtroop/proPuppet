@@ -29,18 +29,18 @@ async function login() {
   }
 
   try {
-    await page.goto(pe.RECALL, { waitUntil: "networkidle0" });
+    await page.goto(pe.CWS, { waitUntil: "networkidle0" });
   } catch (err) {
     console.log("dipshit");
   }
-  try {
-    await page.type("input#search_phone", pe.PHONE, { delay: 100 });
-    page.click("input#recallsearch");
-    await page.waitForSelector("div.cw_link", { visable: true });
-    await Promise.all([page.waitForNavigation(), page.click("div.cw_link")]);
-  } catch (err) {
-    console.log("nice try FFR");
-  }
+  // try {
+  //   await page.type("input#search_phone", pe.PHONE, { delay: 100 });
+  //   page.click("input#recallsearch");
+  //   await page.waitForSelector("div.cw_link", { visable: true });
+  //   await Promise.all([page.waitForNavigation(), page.click("div.cw_link")]);
+  // } catch (err) {
+  //   console.log("nice try FFR");
+  // }
   try {
     Dash = await page.evaluate(() => {
       const dash = [];

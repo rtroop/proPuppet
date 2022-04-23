@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<PMOL_Export>
+	<Row>
+		<FIELD0>Date</FIELD0>
+		<FIELD1>MessageType</FIELD1>
+		<FIELD2>SentBy</FIELD2>
+		<FIELD3>CustomerName</FIELD3>
+		<FIELD4>CustomerId</FIELD4>
+		<FIELD5>BDR</FIELD5>
+		<FIELD6>SalesRep</FIELD6>
+		<FIELD7>SMSMessage</FIELD7>
+		<FIELD8>To</FIELD8>
+		<FIELD9>From</FIELD9>
+		<FIELD10>EventType</FIELD10>
+		<FIELD11>Description</FIELD11>
+		<FIELD12>ErrorCode</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:32 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Nathan Pearce</FIELD3>
+		<FIELD4>147388073</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>Well that's great, in my book 'out and about' is more than 2/3s the way here! Ttyl </FIELD7>
+		<FIELD8>12533617411</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:28 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Nathan Pearce</FIELD3>
+		<FIELD4>147388073</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>We also have an excellent assortment of rides, a  guy could get real smart with and clock that dinedashing money real sparingly and make these rides pay for themselves </FIELD7>
+		<FIELD8>12533617411</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:26 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Nathan Pearce</FIELD3>
+		<FIELD4>147388073</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>If your like the near unanimous total of our customers sir, and come see me tomorrow, I am certain we have the right mix of inventory where a guy can be feelin himself and enjoy telling folks you did cause ya could😏</FIELD7>
+		<FIELD8>12533617411</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:21 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Nathan Pearce</FIELD3>
+		<FIELD4>147388073</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>I don't think you need them, in fact I am almost  certain you didn't want to at first? But I would just urge you to weigh that option against a situation that may or not materialize. It's true, I love us, but a small percent of folks... don't like anyone!! I am sure we accommodate above satisfaction Mr. Pearce. </FIELD7>
+		<FIELD8>12533617411</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:17 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Nathan Pearce</FIELD3>
+		<FIELD4>147388073</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>🧐</FIELD7>
+		<FIELD8>12533617411</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:16 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Nathan Pearce</FIELD3>
+		<FIELD4>147388073</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>Whoa sir..</FIELD7>
+		<FIELD8>12533617411</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:14 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Nathan Pearce</FIELD3>
+		<FIELD4>147388073</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>Yes in fact your current plan would be an attractive proposition for any lender in our wheelhouse and as such you will qualify for the preferred plan! 🤩</FIELD7>
+		<FIELD8>12533617411</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:08 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Janae Baker</FIELD3>
+		<FIELD4>148224013</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Robert Troop</FIELD6>
+		<FIELD7>253-709-3102 : feature rich env </FIELD7>
+		<FIELD8>12535274545</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:07 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Nathan Pearce</FIELD3>
+		<FIELD4>147388073</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>Yes always </FIELD7>
+		<FIELD8>12533617411</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 10:00 am</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Allen Devlin</FIELD2>
+		<FIELD3>Joseph Johnson</FIELD3>
+		<FIELD4>147432985</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Allen Devlin</FIELD6>
+		<FIELD7>Good morning Joe this is Alen with JRS Auto Sales. I just wanted to follow up to see if you were able to come in since I have been off the last two days. Please call me at 253 531-5771. Thanks and Happy Tuesday!</FIELD7>
+		<FIELD8>12532817013</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-failed</FIELD10>
+		<FIELD11>destination-failed</FIELD11>
+		<FIELD12>5650</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/19/2022 08:54 am</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Franklin Quitaneg</FIELD3>
+		<FIELD4>148230352</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Fabian Reyes</FIELD6>
+		<FIELD7>Franklin this is Troop,  Fabian's guy on the ground when he can not be here! He is confident in me, and I hope you will be as well Text me direct 253- 709-3102</FIELD7>
+		<FIELD8>12535230870</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/18/2022 04:46 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Janae Baker</FIELD3>
+		<FIELD4>148224013</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Robert Troop</FIELD6>
+		<FIELD7>No worries, my employer is buying lots of cars.  And a few have shown up, and more arriving over the next couple of days, if your looking for nice and at a deal like everyone else, then I would highly recommend keeping an eye on the website for new rides to pop-up!! The nice stuff sells itself so fast though! If you see something you can't live without, hmu!! </FIELD7>
+		<FIELD8>12535274545</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/18/2022 12:18 pm</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Robert Troop</FIELD2>
+		<FIELD3>Janae Baker</FIELD3>
+		<FIELD4>148224013</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Robert Troop</FIELD6>
+		<FIELD7>Hey this is Rob I spoke to you yesterday about the app you started and you said you were going to come check us out today! I was wondering if you still intend on stopping by?</FIELD7>
+		<FIELD8>12535274545</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+	<Row>
+		<FIELD0>04/18/2022 10:22 am</FIELD0>
+		<FIELD1>Sent</FIELD1>
+		<FIELD2>Fabian Reyes</FIELD2>
+		<FIELD3>Franklin Quitaneg</FIELD3>
+		<FIELD4>148230352</FIELD4>
+		<FIELD5>unassigned</FIELD5>
+		<FIELD6>Fabian Reyes</FIELD6>
+		<FIELD7>Hey Franklin, this is Fabian with Jrs Autos and our address is 13601 Pacific Ave S Parkland, WA 98444</FIELD7>
+		<FIELD8>12535230870</FIELD8>
+		<FIELD9>18332444290</FIELD9>
+		<FIELD10>message-delivered</FIELD10>
+		<FIELD11>Message delivered to carrier.</FIELD11>
+		<FIELD12>0</FIELD12>
+	</Row>
+</PMOL_Export>

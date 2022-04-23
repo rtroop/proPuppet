@@ -1,0 +1,69 @@
+{
+  "Client": {
+    "CID": "",
+    "Gocid": "",
+    "Date": {
+      "Created": "",
+      "Modified": ""
+    },
+    "Associate": "rtroo",
+    "Comment": "",
+    "Persona": {
+      "familyName": "",
+      "givenName": "",
+      "fullName": "",
+      "DOB": "",
+      "family": [
+        {
+          "anniversery": "",
+          "dom_partner": "",
+          "children": "",
+          "animals": ""
+        }
+      ]
+    },
+
+    "Profile": {
+      "coms": {
+        "cell_ph": "",
+        "work_ph": "",
+        "email": "",
+        "fb_profile": "",
+        "twitter": "",
+        "ig_profile": "",
+        "linked_in": ""
+      },
+      "income": {
+        "occupation": "",
+        "secondary": "",
+        "other_inc": "",
+        "assoc_phone": "",
+        "organization": "",
+        "duration": "",
+        "previous": "",
+        "total_inc": ""
+      },
+      "address": {
+        "street_num": "",
+        "city": "",
+        "state": "",
+        "postal": "",
+        "unit": ""
+      },
+      "campaign": {
+        "carGurus": "",
+        "carfax": "",
+        "TrueCar": "",
+        "creditYes": ""
+      },
+      "cr_profile": {
+        "score": "",
+        "past_bk": "",
+        "repos": "",
+        "cash_dn": "",
+        "has_cosign": "",
+        "neg_eqty": ""
+      }
+    }
+  }
+}

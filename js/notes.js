@@ -56,11 +56,6 @@ try {
 } catch (err) {
   console.log(err);
 }
-
-     
-  
-      
-  
     try{
        await page.waitForSelector('#addanote',{visable: true}) 
              page.click('#addanote')
